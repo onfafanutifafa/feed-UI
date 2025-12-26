@@ -33,7 +33,6 @@ body {
 }
 
 .panel-container strong {
-
     line-height: 20px;
 }
 
@@ -47,18 +46,18 @@ body {
     cursor: pointer;
     padding: 20px;
     margin: 10px 5px;
-
+    justify-content: center;
 }
 
 .rating:hover .rating:active{
 
     border-radius: 4px;
-    box-sizing: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 
 }
 
 .rating img{
-    width: 40px;
+    width: 50px;
 }
 
 .rating small{
@@ -69,7 +68,7 @@ body {
 
 
 .rating:hover small,
-.rating.rating:active small {
+.rating:active small {
     color: #111;
 } 
 
